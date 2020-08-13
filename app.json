@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "KDGAPP",
+    "slug": "KDGAPP",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "androidNavigationBar": {
+      "visible": "sticky-immersive",
+      "barStyle": "dark-content"
+    },
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.kdg.kdg",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.kdg.kdg",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
